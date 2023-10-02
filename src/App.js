@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import User from './comps/User';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          eyyy <code>src/App.js</code> hola bro que tal.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <User numeroCita= "1" libro= "Kafka en la orilla"/>
+      <User numeroCita= "2" libro= "Tokio Blues"/>
+      <User numeroCita= "3" libro= "Sputnik, mi amor"/>
+
     </div>
   );
 }
